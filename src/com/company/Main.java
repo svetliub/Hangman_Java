@@ -15,9 +15,6 @@ public class Main {
         int playerScore = 0;
         int lineNumber = 1;
 
-        //ClassLoader classLoader = this.getClass().getClassLoader();
-        //File file = new File(classLoader.getResource("Dictionary.txt").getFile());
-
         File file = new File("resources/files/Dictionary.txt");
 
         Scanner sc = new Scanner(file);
